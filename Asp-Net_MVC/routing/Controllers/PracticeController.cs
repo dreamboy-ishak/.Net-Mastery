@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 public class AmarController : Controller
 {
-    public IActionResult Index(){
+    public IActionResult Index(){//by default route
         return Content("This is a index page");
     }
 
